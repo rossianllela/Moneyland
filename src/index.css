@@ -1,0 +1,164 @@
+:root {
+    --color-button: white;
+    --bg-card: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(57,116,251,1) 51%, rgba(152,6,255,1) 100%);
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-div {
+    margin: auto;
+}
+
+.gradient-div,
+.background-div {
+    border-radius: 15px;
+}
+
+.circled-divs, 
+.gradient-div,
+.field-data {
+    background: conic-gradient(from 180deg at 50% 50%, rgb(0, 138, 255) 0deg, rgb(53, 248, 255) 120deg, rgb(0, 138, 255) 360deg);
+}
+
+.circled-background, 
+.field-data {
+    box-shadow: rgb(21 24 27) 0px 20px 40px, rgb(21 24 27 / 25%) 0px -8px 21px, rgb(255 255 255 / 6%) 0px 2px 4px inset;
+}
+
+.background-div {
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+}
+
+.cards {
+    background: var(--bg-card);
+    color: var(--color-button);
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.card-footer {
+    background: rgb(22, 25, 28);
+}
+
+.card-header {
+    padding: 0.5rem;
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+    box-shadow: rgb(21 24 27 / 25%) 0px -8px 21px, rgb(21 24 27) 0px 20px 40px, rgb(255 255 255 / 6%) 0px 2px 4px inset;
+}
+
+.data-values {
+    gap: 1rem;
+}
+
+.cards, 
+.gradient-div,
+.footer-field-buttons,
+.card-containers, 
+.card-header, 
+.data-values,
+.background-div,
+.cards-body {
+    display: flex;
+}
+
+.cards-body, 
+.background-div,
+.cards {
+    flex-direction: column !important;
+}
+
+.footer-field-buttons, 
+.card-containers, 
+.data-values,
+.card-header {
+    flex-direction: row !important;
+}
+
+.footer-field-buttons,
+.data-values {
+    justify-content: space-around;
+}
+
+.cards {
+    width: 40%;
+}
+
+.card-containers, .data-values {
+    width: 100% !important;
+}
+
+.background-div {
+    height: 12.5rem;
+    width: 20rem;
+    padding: 0.5rem;
+    color: var(--color-button);
+}
+
+.gradient-div {
+    height: 14rem;
+    width: 21.5rem;
+}
+
+.card-containers {
+    gap: 2.5rem;
+}
+
+.card-containers {
+    justify-content: space-evenly;
+}
+
+.button-field-data {
+    height: 4rem;
+    color: var(--color-button);
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 32px;
+    background: linear-gradient(90deg, rgb(68, 51, 200) 1.22%, rgb(68, 51, 200) 100%);
+    box-shadow: rgb(0 0 0 / 40%) 0px 13.9323px 19.6692px, rgb(0 0 0 / 40%) 0px 6.55639px 16.391px, rgb(82 66 204 / 10%) 0px -39px 22px inset, rgb(255 255 255 / 10%) 0px 18px 21px inset, rgb(255 255 255 / 25%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset;
+    border-radius: 15px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+}
+
+.footer-field-buttons, 
+.button-field-data {
+    align-items: center;
+}
+
+.card-header-text {
+    width: 90%;
+}
+
+#root > div > div.card-containers > div > div.card-header > div > ion-icon {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 811px) {
+
+    .data-values, .card-containers {
+        flex-direction: column !important;
+    }
+
+    .data-values, .card-containers {
+        align-items: center;
+    }
+
+    .cards {
+        width: 80% !important;
+    }
+}

@@ -1,0 +1,79 @@
+article, aside {
+    flex-direction: column;
+}
+
+aside {
+    max-width: 50%;
+    height: 100%;
+    position: fixed;
+    background: #272c32;
+    color: #ffffff;
+    overflow-y: hidden;
+}
+
+#root > div > header > div > div:nth-child(1) > div:nth-child(1) > ion-icon {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+aside > div > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+aside > div > ul > li > p,
+aside > div > ul > li > a {
+    margin-right: auto
+}
+
+aside > div > ul > li > ion-icon {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: bolder;
+}
+
+
+.fields-footer {
+    width: 100%;
+    display: flex;
+}
+
+.aside-footer {
+    /*position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;*/
+    display: flex;
+    height: 25%;
+    border-top: 1px solid grey;
+}
+
+aside > div > ul > li > ion-icon:hover {
+    color: #3ec2fc;
+    width: 80%;
+}
+
+aside > div > ul > li {
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+aside > div > ul {
+    flex-direction: column;
+    text-align: left;
+}
+
+aside > div > ul, 
+aside > div > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
