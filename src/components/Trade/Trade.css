@@ -110,6 +110,34 @@
     margin: auto;
 }
 
+.caja {
+    border: 1px solid #d9d9d9;
+    height: 30px;
+    margin: 20px auto 40px;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+.redondo {
+    background-color: #3ec2fc;
+    border-color: #fff;
+    border-radius: 50%;
+    box-shadow: #3ec2fc;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
 @media only screen and (max-width: 811px) {
     
     .field-data-background {

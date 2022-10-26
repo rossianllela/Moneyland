@@ -26,7 +26,7 @@ function AsideMenu() {
                     </li>
                     <li>
                         <ion-icon name="analytics-sharp"></ion-icon>
-                        { toggle && <Link to={'/Trad'}>Money Trade</Link>}                        
+                        { toggle && <Link to={'/Trade'}>Money Trade</Link>}                        
                     </li>
                     <li>
                         <ion-icon name="storefront-sharp"></ion-icon>
