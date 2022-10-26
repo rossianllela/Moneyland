@@ -4,6 +4,8 @@ import Home from './components/Home/Home';
 import Trade from './components/Trade/Trade';
 import Farm from './components/Farm/Farm';
 import Play from './components/Play/Play';
+import Perfil from './components/Perfil/Perfil';
+import Nft from './components/Nft/Nft';
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
 
 <div className='container'>
 <AsideMenu />
-      <Play />
+      <Nft />
 </div>
      
     </>
