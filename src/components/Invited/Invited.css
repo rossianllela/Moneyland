@@ -1,0 +1,168 @@
+#root > div > div > div:nth-child(2),
+.child-time-field,
+.home-container,
+.field-data-background,
+.circled-divs,
+.spaces-time,
+.field-data {
+    display: flex;
+}
+
+.field-data-background, .field-data {
+    border-radius: 30px;
+}
+
+.spaces-time {
+    padding: 1rem;
+}
+
+.spaces-time {
+    gap: 1rem;
+}
+
+.home-container {
+    gap: 3rem;
+}
+
+.circled-background > h2 {
+    margin-top: -1rem;
+}
+
+.child-time-field {
+    color: var(--color-button);
+    font-weight: bolder;
+}
+
+.home-container {
+    width: 100%;
+}
+
+.home-container, .spaces-time, .circled-divs {
+    flex-direction: column;
+} 
+
+.field-data, .field-data-background {
+    justify-content: space-around;
+}
+
+.circled-divs, .circled-background {
+    border-radius: 50%;
+}
+
+.circled-divs {
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.circled-background {
+    height: 5rem;
+    width: 5rem;
+}
+
+.circled-background, .field-data-background {
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+}
+
+.field-data {
+    overflow: hidden;
+    padding: 3px;
+}
+
+.field-data-background {
+    width: 100%;
+    height: 100%;
+}
+
+.field-data,
+.spaces-time,
+.child-time-field,
+.field-data-background,
+#root > div > div > div:nth-child(2) {
+    flex-direction: row;
+}
+
+.field-data {
+    width: 90%;
+    margin: auto;
+}
+
+.child-time-field {
+    gap: 0.5rem;
+}
+
+.spaces-time, .home-container, .circled-divs {
+    justify-content: center;
+}
+
+.spaces-time,
+.home-container, 
+.circled-divs,
+.field-data, 
+.field-data-background {
+    align-items: center;
+}
+
+.spaces-time, .circled-divs {
+    text-align: center;
+}
+
+.spaces-time, .home-container, .circled-divs {
+    margin: auto;
+}
+
+.caja {
+    border: 1px solid #d9d9d9;
+    height: 30px;
+    margin: 20px auto 40px;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+.redondo {
+    background-color: #3ec2fc;
+    border-color: #fff;
+    border-radius: 50%;
+    box-shadow: #3ec2fc;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.tesoro {
+    align-items: center;
+    width: 20%;
+  }
+
+@media only screen and (max-width: 811px) {
+    
+    .field-data-background {
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .button-field-data {
+        width: 3rem;
+    }
+
+    .child-time-field, .field-data-background, .card-containers {
+        flex-direction: column !important;
+    }
+
+    .cards {
+        width: 80% !important;
+    }
+
+    .footer-field-buttons {
+        gap: 1rem;
+    }
+}

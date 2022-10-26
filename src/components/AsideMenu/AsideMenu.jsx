@@ -57,10 +57,6 @@ function AsideMenu() {
                         <ion-icon name="people-sharp"></ion-icon>
                         { toggle && <Link to={'/Perfil'}>Teams & Profile</Link> }                        
                     </li>
-                    <li>
-                        <ion-icon name="bar-chart-sharp"></ion-icon>
-                        { toggle && <p>Analytics</p> }                        
-                    </li>
                 </ul>
             </div>
             <div className="aside-footer">
