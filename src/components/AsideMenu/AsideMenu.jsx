@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from "react";
 
+import './AsideMenu.css';
+
 function AsideMenu() {
 
     const toggleState = useSelector((state) => state?.toggleSlice?.value);
@@ -16,7 +18,7 @@ function AsideMenu() {
 
     return (
         <aside>
-            <div className="">
+            <div className="menu-aside">
                 <ul>
                     <li>
                         <ion-icon name="home-sharp"></ion-icon>
