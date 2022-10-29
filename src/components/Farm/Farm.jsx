@@ -24,8 +24,8 @@ function Farm () {
                                 <p>MONEY-BUSD</p>
                             </div>
                             <div className="footer-field-buttons">
-                                <button className="button-field-data">CORE</button>
-                                <button className="button-field-data">40X</button>
+                                <button className="button-field-data-farm">CORE</button>
+                                <button className="button-field-data-farm">40X</button>
                             </div>
                         </div>
                         <div className="card-body">
@@ -60,8 +60,8 @@ function Farm () {
                                 <p>MONEY-BNB</p>
                             </div>
                             <div className="footer-field-buttons">
-                                <button className="button-field-data">CORE</button>
-                                <button className="button-field-data">24X</button>
+                                <button className="button-field-data-farm">CORE</button>
+                                <button className="button-field-data-farm">24X</button>
                             </div>
                         </div>
                         <div className="card-body">
@@ -96,8 +96,8 @@ function Farm () {
                                 <p>BUSD-BNB</p>
                             </div>
                             <div className="footer-field-buttons">
-                                <button className="button-field-data">CORE</button>
-                                <button className="button-field-data">1X</button>
+                                <button className="button-field-data-farm">CORE</button>
+                                <button className="button-field-data-farm">1X</button>
                             </div>
                         </div>
                         <div className="card-body">
@@ -134,8 +134,8 @@ function Farm () {
                                 <p>USDT-BUSD</p>
                             </div>
                             <div className="footer-field-buttons">
-                                <button className="button-field-data">CORE</button>
-                                <button className="button-field-data">1X</button>
+                                <button className="button-field-data-farm">CORE</button>
+                                <button className="button-field-data-farm">1X</button>
                             </div>
                         </div>
                         <div className="card-body">
@@ -170,8 +170,8 @@ function Farm () {
                                 <p>USDT-BNB</p>
                             </div>
                             <div className="footer-field-buttons">
-                                <button className="button-field-data">CORE</button>
-                                <button className="button-field-data">1X</button>
+                                <button className="button-field-data-farm">CORE</button>
+                                <button className="button-field-data-farm">1X</button>
                             </div>
                         </div>
                         <div className="card-body">
@@ -206,8 +206,8 @@ function Farm () {
                                 <p>BTCB-BNB</p>
                             </div>
                             <div className="footer-field-buttons">
-                                <button className="button-field-data">CORE</button>
-                                <button className="button-field-data">1X</button>
+                                <button className="button-field-data-farm">CORE</button>
+                                <button className="button-field-data-farm">1X</button>
                             </div>
                         </div>
                         <div className="card-body">

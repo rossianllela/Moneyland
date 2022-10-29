@@ -153,10 +153,6 @@ select {
         flex-direction: column !important;
     }
 
-    .cards {
-        width: 90%;
-    }
-
     .footer-field-buttons {
         gap: 1rem;
     }

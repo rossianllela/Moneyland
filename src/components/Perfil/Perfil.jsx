@@ -12,12 +12,12 @@ function Perfil () {
                                 <h2>NAME</h2>
                                 <p>0</p><br />
                             </div>
-                            <div className='textotrade'>
+                        </div>
+                        <div className='textotrade'>
                                     <button class="redondo"><ion-icon name="download-outline"></ion-icon></button>
                                     <br></br>
                                     <button class="redondo"><ion-icon name="send-outline"></ion-icon></button>
                                 </div>
-                        </div>
                         <center>
                         <div className="card-body">
                             <h2>Team</h2><br />

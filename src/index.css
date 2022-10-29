@@ -169,10 +169,52 @@ body, html {
     }
 
     .cards {
-        width: 80% !important;
+        width: 70% !important;
     }
 
     .home-container{
-        margin-left: 10% !important;
+        margin-left: 14% !important;
+        width: 80%;
+        flex-direction: column;
     }
+
+    .background-div {
+        height: 11rem;
+        width: 10rem;
+        padding: 0.5rem;
+        color: var(--color-button);
+    }
+
+    .gradient-div {
+        height: 14rem;
+        width: 10rem;
+    }
+
+    .button-field-data {
+        height: 2rem;
+        color: var(--color-button);
+        font-weight: bolder;
+        border: none;
+        border-radius: 15px;
+        padding: 2px 3px;
+        background: linear-gradient(90deg, rgb(68, 51, 200) 1.22%, rgb(68, 51, 200) 100%);
+        box-shadow: rgb(0 0 0 / 40%) 0px 13.9323px 19.6692px, rgb(0 0 0 / 40%) 0px 6.55639px 16.391px, rgb(82 66 204 / 10%) 0px -39px 22px inset, rgb(255 255 255 / 10%) 0px 18px 21px inset, rgb(255 255 255 / 25%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset;
+        border-radius: 15px;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+    }
+
+    .button-field-data {
+        width: 10rem;
+    }
+
+    .spaces-time{
+        flex-direction: column;
+}
+
+.button-field-data-farm {
+    width: 3rem;
+}
 }
