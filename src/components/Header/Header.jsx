@@ -32,13 +32,13 @@ function Header () {
                         <div className="assets-flags" onClick={ changeStateToggle }>
                             <ion-icon name="reorder-three-outline"></ion-icon>
                         </div>
-                        {/*<div className="logo-img">
+                        <div className="logo-img">
                         <img 
                                 className="logo"
                                 src='./images/New_logo_moneyland-01.png'
                                 alt="Money Land" 
                                 title="Money Land" /> 
-    </div>*/}
+                        </div>
                     </div>
                     <div className="items-flags">
                         <div className="assets-flags">
