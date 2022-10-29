@@ -165,28 +165,23 @@ function Home () {
                     <div className="cards">
                         <div className="card-header">
                             <div className="card-header-text">
-                                <p>Exchange values</p>
+                                <p>VALUE</p>
                                 <br />
-                                <h2>ONI EXCHANGE</h2>
+                                <h2>TOTAL VALUE LOCKED</h2>
                             </div>
                             <div className="">
-                                <ion-icon name="skull-outline"></ion-icon>
+                            <img 
+                                className="cof"
+                                src='./images/cofre3.png'
+                                alt="Money Land" 
+                                title="Money Land" />
                             </div>
                         </div>
                         <div className="card-body">
-                            <p>ONI EXCHANGE</p><br />
-                            <p>oni example</p>
+                            <p>$00</p><br />
+                            <p>ACROSS ALL LPS AND FUEL POOLS</p>
                         </div>
-                        <div className="card-footer">
-                            <div className="footer-fields">
-                                <p>ONI EXCHANGE</p><br />
-                                <p>oni example</p>
-                            </div>
-                            <div className="footer-field-buttons">
-                                <button className="button-field-data">Collect winnings</button>
-                                <button className="button-field-data">Approve On</button>
-                            </div>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
