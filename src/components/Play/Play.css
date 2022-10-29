@@ -141,6 +141,19 @@
 }
 
 
+.circular--square {
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+  .circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+
+
 @media only screen and (max-width: 811px) {
     
     .field-data-background {

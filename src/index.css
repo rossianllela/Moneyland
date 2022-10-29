@@ -1,5 +1,5 @@
 .home-container{
-    margin-left: 5% !important;
+    margin-left: 4% !important;
 }
 
 :root {
@@ -157,6 +157,13 @@ body, html {
     flex-direction: row !important;
     gap: 5rem !important;
 }
+
+.circular--square-play {
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
 
 @media only screen and (max-width: 811px) {
 
